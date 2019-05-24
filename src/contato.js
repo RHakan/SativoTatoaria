@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
 
 
-function App() {
+function contato() {
   return (
     <div className="App">
        <header className="header">
@@ -17,7 +17,9 @@ function App() {
 
       </header>
       <body className="body">
-          teste teste teste
+        <fieldset className="endereco"><legend> Endereço do Usuário</legend>
+            <p><label for="cRua"></label> Logradouro: <input type="text" name="tRua" id="cRua" size="20" maxlength="80" placeholder="Rua/AV./Travessa"/></p>
+        </fieldset>
       </body>
       <footer className="footer">
         <p>Copyright 2019 - by Rafael Henrique<br/>
@@ -29,4 +31,4 @@ function App() {
   );
 }
 
-export default App;
+export default contato;

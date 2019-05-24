@@ -17,7 +17,7 @@ function App() {
 
       </header>
       <body className="body">
-          teste teste teste
+        
       </body>
       <footer className="footer">
         <p>Copyright 2019 - by Rafael Henrique<br/>
