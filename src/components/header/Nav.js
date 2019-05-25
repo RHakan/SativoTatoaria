@@ -7,10 +7,10 @@ export default class nav extends React.Component{
         return(
             <div className="menu">
                 <ul>
-                  <li><AnchorLink href='#Home' offset='50'> Home </AnchorLink></li>
-                  <li><AnchorLink href='#Artist'> Artist </AnchorLink></li> 
-                  <li><AnchorLink href='#Portifolio'> Portifólio </AnchorLink></li> 
-                  <li><AnchorLink href='#Contato'> Contato </AnchorLink></li>
+                  <li><AnchorLink href='#Home' offset='40'> Home </AnchorLink></li>
+                  <li><AnchorLink href='#Artist'offset='40'> Artist </AnchorLink></li> 
+                  <li><AnchorLink href='#Portifolio'offset='40'> Portifólio </AnchorLink></li> 
+                  <li><AnchorLink href='#Contato'offset='40'> Contato </AnchorLink></li>
                 </ul>
               </div>
         );

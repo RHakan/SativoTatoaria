@@ -4,9 +4,15 @@ import './App.css';
 export default class Main extends React.Component{
     render(){
         return(
-            <body className="body">
+            <div className="body">
               <div id="Home">
-                teste home
+                <div id="logo">
+                  <h1>LOGO</h1>
+                </div>
+                <div id="infHome">  
+                  <h1>Sativo Tatuaria</h1>
+                  <h2>Cada Tatoo é uma arte única</h2>
+                </div>
               </div>
               <div id="Artist">
                 teste artist
@@ -17,7 +23,7 @@ export default class Main extends React.Component{
               <div id="Contato">
                 teste contato
               </div>
-            </body>
+          </div>
         );
     }
 }

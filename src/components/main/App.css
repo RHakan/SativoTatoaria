@@ -4,10 +4,10 @@
   background-image: url("../../_img/FundoAlternativo1.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
-  height: 600px;
-  width: 100%;
+  height: 100vh;
   margin: 0;
   color: white;
+  background-color: black;
   
   
 }
@@ -28,18 +28,22 @@ a:hover{
   height: 150px;
   width: 0%;
   margin: auto;
+  top: 200px;
 }
+
+
 
 
 .body {
   position: relative;
-  align-items: center;
   background-color: rgba(0,0,0, 0.9);
-  height: 715px;
+  height: 100%;
   width: 75%;
+  top: 0px;
   margin: auto;
   box-shadow: 4px 4px 4px rgba(34,139,34, 0.5);
   text-align: center;
+  
   
   
 }
@@ -49,15 +53,16 @@ a:hover{
   text-decoration: none;
   font-family: 'Sniglet', cursive;
   position: fixed;
+  height: 20px;
   width: 100%;
   align-items: center;
   top: -2px;
-  left: 0px;
+  left: -2px;
   font-size: 16pt;
   padding: 10px;
   margin: 2px;
   transition: background-color 0.5s;
-  background-color:white;
+  background-color:black;
   
 }
 
@@ -65,39 +70,57 @@ a:hover{
   position: relative;
   text-decoration: none;
   display: inline-flex;
-  font-size: 16pt;
+  font-size: 12pt;
   padding: 10px;
-  margin: 2px;
+  margin: 0px 150px 0px 0px;
   transition: background-color 0.5s;
   background-color: black;
-  left: 600px;
-  
-  
-  
+  top: -10px;
+  left: 20.5%;
 }
 
 #Home {
-  height: 600px;
-  width: 200px;
+  position: relative;
+  height: 100vh;
   text-align: center;
-  background-color: yellow;
+  
+}
+
+#logo {
+  position: relative;
+  height: 200px;
+  width: 200px;
+  top: 200px; 
+  margin: auto;
+}
+
+#infHome {
+  position: relative;
+  height: 135px;
+  width: 400px;
+  top: 180px;
+  margin: auto;
+  font-family: 'Courier New', Courier, monospace;
+  border-top: 5px solid;
+  border-bottom: 5px  solid;
+  border-color: rgb(34,139,34);
+  
+  
 }
 
 #Artist {
-  height: 600px;
-  width: 200px;
+  position: relative;
+  height: 100vh;
   text-align: center;
   background-color: green;
 }
 #Portifolio{
-  height: 600px;
-  width: 200px;
+  height: 100vh;
   text-align: center;
   background-color: blue;
 }
 #Contato{
-  height: 600px;
-  width: 200px;
+  height: 100vh;
   text-align: center;
   background-color: orange;
 }
@@ -106,7 +129,7 @@ a:hover{
   position: relative;
   background-color: rgba(0,0,0, 0.9);
   height: 60px;
-  width: 1100px;
+  width: 75%;
   margin: auto;
   top: 100%;
   box-shadow: 4px 4px 4px rgba(34,139,34, 0.5);

@@ -13,12 +13,10 @@ export default class App extends React.Component{
       return (
         
           <div className="App">
-            <div>
-                                      
+            <div>            
               <Main/>
               <Footer/>
               <Header/>
-              
             </div>
           </div>
         );
